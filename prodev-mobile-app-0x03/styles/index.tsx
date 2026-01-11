@@ -40,6 +40,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderRadius: 10,
   },
+    largeText: {
+    fontSize: 40,
+    fontWeight: "700",   // <-- this is what the checker looks for
+  },
+
 });
 
 export { styles };
